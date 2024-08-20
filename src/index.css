@@ -160,7 +160,6 @@
   font-size: 20px;
   color: blueviolet ;
 }
-
 @media screen and (max-width: 768px) {
   *{
     
@@ -230,4 +229,28 @@
     box-shadow: none;
   }
   
+}
+
+@media screen and (max-width: 325px) {
+  .joke-span{
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: center;
+    margin-left: 15%;
+  }
+  .joke-button{
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 35%;
+    text-align: center;
+    height: 50px;
+    width: 130px;
+    background-color: blueviolet;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 6px;
+  }
+
+
 }
