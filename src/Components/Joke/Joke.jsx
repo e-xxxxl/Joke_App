@@ -13,7 +13,7 @@ const Joke = () => {
 
         setTimeout(() => {
             setIsLoading(false)
-        }, 0)
+        }, 3500)
 
        
 
