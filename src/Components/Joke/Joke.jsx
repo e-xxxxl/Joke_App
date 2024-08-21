@@ -21,13 +21,21 @@ const Joke = () => {
     }, [])
 
     const getJoke = () => {
+
+        setIsLoading(true)
         fetch(apiUrl)
         .then((response) => response.json())
         .then((data) => {
             console.log(data);
 
+            setTimeout(() => {
+                setIsLoading(false)
+            }, 1500)
+
             setJoke(data)
             console.log(joke);
+
+
             
 
         })
